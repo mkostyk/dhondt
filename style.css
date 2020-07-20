@@ -1,0 +1,50 @@
+#menu
+  {
+	   margin: 0px auto;
+     background: #9b4dca;
+  }
+#menu ul
+  {
+    text-align: center;
+  }
+
+#menu li
+  {
+    display: inline-block;
+  }
+
+#menu li a, #menu li span
+  {
+  	display: inline-block;
+  	margin-left: 0.50em;
+  	padding: 1.75em 1.5em 0.95em 1.5em;
+  	letter-spacing: 0.20em;
+  	text-decoration: none;
+  	font-size: 0.90em;
+  	font-weight: 600;
+  	text-transform: uppercase;
+  	outline: 0;
+  	color: #FFF;
+  }
+
+#opis
+  {
+    width: 40%;
+    text-align: justify;
+    margin: auto;
+  }
+
+#form
+  {
+    width: 40%;
+  }
+
+#results
+  {
+    width: 40%;
+  }
+
+input
+  {
+    margin: auto;
+  }
