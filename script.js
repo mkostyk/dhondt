@@ -51,7 +51,7 @@ function showResults(){
   var table = document.getElementById('resultsTable').getElementsByTagName('tbody')[0];
   var length = table.rows.length;
   for(let i=length; i>0; i--)
-    table.deleteRow(i);
+    table.deleteRow(i-1);
 
   sejm.sort(function(a, b){return b[0]-a[0]});
   for(let i=0; i<partie; i++){
