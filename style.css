@@ -17,7 +17,7 @@
 #menu li a, #menu li span
   {
   	display: inline-block;
-  	margin-left: 0.5em;
+  	margin-left: 0;
   	padding: 1.9em 1.5em 1.5em 1.5em;
   	letter-spacing: 0.20em;
   	text-decoration: none;
@@ -30,8 +30,8 @@
 
 #menu a:hover
   {
-    color: #9b4dca;
-    background: #FFF;
+    color: #FFF !important;
+    background: #606c76;
   }
 
 #menuClicked
