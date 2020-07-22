@@ -89,9 +89,10 @@ function getResults(metoda){
   for(let i=0; i<partie; i++)
     sejm[i][1]=(Math.round(krajoweWyniki[i]*10000/suma))/100;
 
-  for(let i=0; i<partie; i++)
+  for(let i=0; i<partie; i++){
     if(krajoweWyniki[i]<0.05*suma) krajoweWyniki[i]=0; //próg wyborczy
-
+    if(i==1 && krajoweWyniki[i]<0.08*suma) krajoweWyniki[i]=0; //próg wyborczy dla KKW Koalicja Obywatelska
+  }
 
   model(metoda);
 }
