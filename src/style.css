@@ -1,0 +1,97 @@
+#menu
+  {
+	   margin: 0px auto;
+     background: #9b4dca;
+  }
+#menu ul
+  {
+    text-align: center;
+  }
+
+#menu li
+  {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+#menu li a, #menu li span
+  {
+  	display: inline-block;
+  	margin-left: 0;
+  	padding: 1.9em 1.5em 1.5em 1.5em;
+  	letter-spacing: 0.20em;
+  	text-decoration: none;
+  	font-size: 0.90em;
+  	font-weight: 600;
+  	text-transform: uppercase;
+  	outline: 0;
+  	color: #FFF;
+  }
+
+#menu a:hover
+  {
+    color: #FFF !important;
+    background: #606c76;
+  }
+
+#menuClicked
+  {
+    color: #9b4dca !important;
+    background: #FFF;
+  }
+
+#opis
+  {
+    width: 45%;
+    text-align: justify;
+    margin: auto;
+  }
+
+#form
+  {
+    width: 40%;
+  }
+
+#results
+  {
+    width: 40%;
+  }
+
+.ct-label {
+    font-size: 15px;
+    fill: white;
+    font-weight: bold;
+}
+
+.pis{
+	fill: #073A76;
+}
+
+.ko{
+	fill: #FCA241;
+}
+
+.lew{
+	fill: #E2001A;
+}
+
+.kp{
+	fill: #1BB100;
+}
+
+.konf{
+	fill: #102440;
+}
+
+.p2050{
+	fill: #F9C013;
+}
+
+.inne{
+	stroke: #BBBBBB;
+}
+
+input
+  {
+    margin: auto;
+  }

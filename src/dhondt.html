@@ -3,9 +3,11 @@
   <title> Kalkulator mandatów </title>
   <meta charset="utf-8">
   <script type="text/javascript" src="script.js"></script>
+  <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.0/milligram.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -35,6 +37,9 @@
           <th>Konfederacja</th><th><input type="number" value="6.81"></th>
         </tr>
         <tr>
+          <th>Polska 2050</th><th><input type="number" value="0"></th>
+        </tr>
+        <tr>
           <th>Inne</th><th><input type="number" value="1.09"></th>
         </tr>
       </table>
@@ -55,6 +60,8 @@
    <tbody>
    </tbody>
   </table>
+  <div class="ct-chart ct-square">
+  </div>
 </div>
 </center>
 </body>
